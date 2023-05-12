@@ -1,0 +1,33 @@
+.calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-calc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-calc button{
+    margin: 3% 0;
+    flex-grow: 5;
+}
+
+.oper-calc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oper-calc button{
+    margin: 3% 0;
+    flex-grow: 1;
+}
+
+.result{
+    display: flex;   
+}
+
+.result button{
+flex-grow: 1;
+}
